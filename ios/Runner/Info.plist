@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>YMKMapKitApiKey</key>
+    <string>b8353108-cb6f-41fc-a208-3a5e30cd5690</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs access to your location while using the map.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>This app needs access to your location at all times.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>This app needs access to your location both when in use and in the background.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
