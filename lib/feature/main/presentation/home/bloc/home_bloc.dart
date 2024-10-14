@@ -10,6 +10,7 @@ import 'package:one_data_taxi_app_task/feature/main/domain/repository/address_re
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 
 part 'home_event.dart';
+
 part 'home_state.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
@@ -74,7 +75,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           latitude: currentLocation.latitude,
           longitude: currentLocation.longitude,
         );
-        final double speed = currentLocation.speed / 3.6;
+        final double speed = currentLocation.speed * 3.6;
 
         emit(state.copyWith(currentPoint: point, speed: speed.toInt()));
 
